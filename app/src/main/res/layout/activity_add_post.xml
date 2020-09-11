@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddPostActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        app:title=" "
+        android:elevation="1dp"
+        android:layout_height="wrap_content">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_back"
+        android:background="@android:color/transparent"
+        android:layout_marginRight="12dp"
+        android:onClick="cancelPost"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/new_post"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:layout_height="wrap_content" />
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginTop="6dp">
+
+            <ImageView
+                android:id="@+id/imgAddPost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:adjustViewBounds="true"/>
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/change_photo"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_horizontal"
+                android:onClick="changePhoto"/>
+
+            <EditText
+                android:id="@+id/txtDescAddPost"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:inputType="textMultiLine"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:padding="8dp"
+                android:background="@drawable/txt_background"/>
+
+            <Button
+                android:id="@+id/btnAddPost"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="@string/post"
+                android:background="@drawable/btn_round"
+                android:textColor="@color/colorWhite"
+                android:layout_marginRight="12dp"
+                android:textSize="17dp"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

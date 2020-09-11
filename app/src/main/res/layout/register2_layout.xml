@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/page_title"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:textSize="50sp"
+        android:text="@string/finish_registration" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="260dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/page_title"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColorHint="#181223"
+        android:hint="@string/course"
+        />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/et_name"
+        android:layout_alignStart="@id/et_name"
+        android:layout_alignLeft="@id/et_name"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="-40dp"
+        android:text="course"
+        android:textSize="16sp" />
+
+
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="260dp"
+        android:layout_below="@id/et_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="#181223"
+        android:inputType="number"
+        android:hint="@string/year_of_study"
+        />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/et_email"
+        android:layout_alignStart="@id/et_name"
+        android:layout_alignLeft="@id/et_name"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="-40dp"
+        android:text="@string/year"
+        android:textSize="16sp" />
+
+
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="260dp"
+        android:layout_below="@id/et_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="#181223"
+        android:inputType="textPassword"
+        android:hint="@string/select_your_interests"
+        />
+
+    <TextView
+        android:id="@+id/tv_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/et_password"
+        android:layout_alignStart="@id/et_password"
+        android:layout_alignLeft="@id/et_password"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="-40dp"
+        android:text="@string/interests"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:background="@drawable/button_rectangle_pink"
+        android:layout_alignParentBottom="false"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/et_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/register" />
+
+
+</RelativeLayout>

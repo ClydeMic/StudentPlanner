@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/task_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/task_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task name here"
+            android:textSize="20sp"
+            android:textColor="@color/design_default_color_primary_dark"/>
+
+        <TextView
+            android:id="@+id/task_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/task_name"
+            android:text="2hours"
+            android:drawableStart="@drawable/ic_time_grey"
+            android:textSize="15sp"
+            android:textColor="@color/design_default_color_primary_dark"/>
+
+        <TextView
+            android:id="@+id/task_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/task_duration"
+            android:layout_below="@id/task_name"
+            android:text="STMB S4"
+            android:layout_marginLeft="20dp"
+            android:drawableStart="@drawable/ic_location_grey"
+            android:textSize="15sp"
+            android:textColor="@color/design_default_color_primary_dark"/>
+
+        <TextView
+            android:id="@+id/task_notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/task_duration"
+            android:drawableStart="@drawable/ic_action_name"
+            android:text="Task Notes"
+            android:textSize="20sp"
+            android:textColor="@android:color/darker_gray" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

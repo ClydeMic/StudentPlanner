@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">StudentPlanner</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">LOGIN</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="name">Name:</string>
+    <string name="email_address">Email Address:</string>
+    <string name="email">Email</string>
+
+    <string name="password">password:</string>
+    <string name="register">Register</string>
+    <string name="enter_pass">Enter Password</string>
+    <string name="your_password">Your Password</string>
+    <string name="campus_name">Campus Name</string>
+    <string name="name_of_campus">Name Of Campus:</string>
+    <string name="back">Back</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="we_will_help_you_organize_all_your_activities">We will help you organize all your activities</string>
+    <string name="personal_planner">Personal Planner</string>
+    <string name="course">Course</string>
+    <string name="year">Year</string>
+    <string name="year_of_study">Year of Study</string>
+    <string name="interests">interests</string>
+    <string name="select_your_interests">Select your interests</string>
+    <string name="the_dashboard">The Dashboard</string>
+    <string name="finish_registration">Finish Registration</string>
+    <string name="response">Response</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_view">Dashboard View</string>
+    <string name="events_view">Events View</string>
+    <string name="journal_view">Journal View</string>
+    <string name="timetable_view">Timetable View</string>
+    <string name="student_planner">Student Planner</string>
+    <string name="student_planner_journal">Student Planner: Journal</string>
+    <string name="april_1st">April 1st</string>
+    <string name="jane_doe">Jane Doe</string>
+    <string name="today_i_went_to_uhuru_park_it_was_nice_and_sunny">Today i went to Uhuru Park it was nice and sunny</string>
+    <string name="_30_comments">30 Comments</string>
+    <string name="new_post">New Post</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="post">Post</string>
+    <string name="comments">Comments</string>
+    <string name="edit_post">Edit Post</string>
+    <string name="save">Save</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="student_companion">Student Companion</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+</resources>

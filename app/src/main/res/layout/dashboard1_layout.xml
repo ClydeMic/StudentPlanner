@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/iv_barrow"
+        android:layout_width="64dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/ic_back_arrow" />
+
+    <TextView
+        android:id="@+id/tv_pplanner"
+        android:layout_width="234dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:text="@string/personal_planner"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/iv_hex"
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="168dp"
+        android:src="@drawable/hex1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_below="@id/tv_help"
+        android:layout_marginTop="106dp"
+        android:src="@drawable/ic_dots" />
+
+    <TextView
+        android:id="@+id/tv_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_hex"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/we_will_help_you_organize_all_your_activities"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/iv_hex"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="148dp"
+        android:text="@string/skip"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_hex"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="26dp"
+        android:text="@string/next"
+        android:textSize="20sp" />
+    <!--
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_password"
+            android:text="@string/remember_me" />
+            -->
+    </RelativeLayout>
+

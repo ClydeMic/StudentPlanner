@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    tools:context=".UserInfoActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background3">
+
+
+
+
+    <TextView
+        android:id="@+id/page_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:text="Finish Registration"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:textSize="30sp"
+   />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgUserInfo"
+        android:layout_width="116dp"
+        android:layout_height="99dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:src="@color/design_default_color_secondary_variant" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Profile Image"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/txtSelectPhoto"/>
+
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:id="@+id/txtLayoutNameUserInfo">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtNameUserInfo"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:drawableLeft="@drawable/ic_action_name"
+            android:ems="10"
+            android:hint="enter Full Name"
+            android:inputType="text"
+            android:textColor="#181223"
+            android:textColorHint="#181223" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/txtLayoutCourseUserInfo"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtCourseUserInfo"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+
+            android:ems="10"
+            android:hint="Enter Course"
+
+            android:inputType="text"
+            android:textColor="#181223"
+            android:textColorHint="#181223"
+            android:textStyle="bold" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/txtLayoutCampusUserInfo"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtCampusUserInfo"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+
+            android:ems="10"
+            android:hint="Enter Campus"
+
+            android:inputType="text"
+            android:textColor="#181223"
+            android:textColorHint="#181223"
+            android:textStyle="bold" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/txtLayoutYOSUserInfo"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtYOSUserInfo"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+
+            android:ems="10"
+            android:hint="Year Of Study"
+
+            android:inputType="text"
+            android:textColor="#181223"
+            android:textColorHint="#181223"
+            android:textStyle="bold" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/txtLayoutInterestsUserInfo"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtInterestsUserInfo"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+
+            android:ems="10"
+            android:hint="What are your interests?"
+
+            android:inputType="text"
+            android:textColor="#181223"
+            android:textColorHint="#181223"
+            android:textStyle="bold" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/button_rectangle_pink"
+        android:text="FINISH"
+        android:textSize="20sp" />
+
+
+
+</LinearLayout>

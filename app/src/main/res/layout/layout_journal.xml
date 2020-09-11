@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="602dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgjournalProfile"
+                android:layout_width="33dp"
+                android:layout_height="38dp"
+                android:src="@drawable/girl2"
+                app:civ_border_width="2dp" />
+
+            <LinearLayout
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingLeft="6dp">
+
+                <TextView
+                    android:id="@+id/txtJournalname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jane_doe"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtJournalDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/april_1st"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btnJournalOption"
+                android:layout_width="77dp"
+                android:layout_height="46dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/colorWhite"
+                android:src="@drawable/ic_more_vert_black_24dp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgJournalPhoto"
+            android:layout_width="200dp"
+            android:layout_height="143dp"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@color/design_default_color_secondary_variant"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtjournalAbout"
+            android:layout_width="match_parent"
+            android:layout_height="176dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/today_i_went_to_uhuru_park_it_was_nice_and_sunny"
+            android:textColor="#3F51B5"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/titleg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:text="Emotions Raised:"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtjournalFeeling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:text="Happy"
+            android:textAlignment="center"
+            android:textColor="#673AB7"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:text="Tag:"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtjournalTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:text="Nature"
+            android:textAlignment="center"
+            android:textColor="#673AB7"
+            android:textSize="14sp" />
+
+
+        <LinearLayout
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnJournalLike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_baseline_favorite_outline" />
+
+
+            <ImageButton
+                android:id="@+id/btnJournalComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+
+                android:src="@drawable/ic_comment" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/titleA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:textStyle="bold"
+            android:text="Journal Analytics:"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtJournalLikes"
+            android:layout_width="440dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/style_rectangle_pink"
+            android:text="12 Likes"
+            android:textAlignment="center"
+            android:textColor="#FBFAF9"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtJournalComments"
+            android:layout_width="453dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/style_rectangle_pink"
+            android:text="View all 3 Comments"
+            android:textAlignment="center"
+            android:textColor="#FAF7F6"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#ccc" />
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

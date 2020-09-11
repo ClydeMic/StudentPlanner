@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardFragment"
+    android:background="@drawable/background3">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/dashboard_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:text="Good Morning Janette"
+            android:layout_toRightOf="@+id/image"
+            android:paddingLeft="20dp"/>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/girl2"/>
+
+        <TextView
+            android:id="@+id/tv_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wednesday"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/image"
+            android:paddingLeft="20dp"
+            android:layout_below="@+id/tv_name"/>
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10th June 2020"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/image"
+            android:paddingLeft="20dp"
+            android:layout_below="@+id/tv_day"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_debug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dashboard_top"
+        android:background="@drawable/style_rectangle_pink"
+        android:paddingLeft="20dp"
+        android:text="TASKS"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_below="@+id/tv_debug"
+        android:layout_width="match_parent"
+        android:outlineAmbientShadowColor="@color/colorBlack"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_color"
+        android:scrollbars="vertical"/>
+
+</RelativeLayout>
